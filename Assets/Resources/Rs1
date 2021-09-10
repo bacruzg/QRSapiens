@@ -1,0 +1,51 @@
+Pregunta;RespuestaCorrecta;Correccion;Puntos
+Una búsqueda no debería de exceder 800ms;2;La respuesta correcta es desempeño.;100
+Toda funcionalidad del sistema y transacción de negocio debe responder al usuario en menos de 5 segundos.;2;La respuesta correcta es desempeño.;100
+El sistema debe ser capaz de operar adecuadamente con hasta 100.000 usuarios con sesiones concurrentes.;2;La respuesta correcta es desempeño.;100
+El sistema debe ser capaz de realizar una búsqueda sencilla en 3 segundos y una búsqueda compleja (combinando criterios) en máximo 5 segundos, con independencia de la capacidad de almacenamietno y el número de documentos en el sistema;2;La respuesta correcta es desempeño.;100
+Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos;3;La respuesta correcta es seguridad.;100
+Todos los sistemas deben respaldarse cada 24 horas. Los respaldos deben ser almacenados en una localidad segura ubicada en un edificio distinto al que reside el sistema;3;La respuesta correcta es seguridad.;100
+Todas las comunicaciones externas entre servidores de datos, aplicación y cliente del sistema deben estar encriptadas utilizando el algoritmo RSA;3;La respuesta correcta es seguridad.;100
+Si se identifican ataques de seguridad o brecha del sistema, el mismo no continuará operando hasta ser desbloqueado por un administrador de seguridad;3;La respuesta correcta es seguridad.;100
+El tiempo de aprendizaje del sistema por un usuario deberá ser menor a 4 horas;5;La respuesta correcta es usabilidad.;100
+La tasa de errores cometidos por el usuario deberá ser menor del 1% de las transacciones totales ejecutadas en el sistema;5;La respuesta correcta es usabilidad.;100
+El sistema debe contar con manuales de usuario estructurados adecuadamente;5;La respuesta correcta es usabilidad.;100
+El sistema debe proporcionar mensajes de error que sean informativos y orientados a usuario final.;5;La respuesta correcta es usabilidad.;100
+El sistema debe contar con un módulo de ayuda en línea;5;La respuesta correcta es usabilidad.;100
+La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tableta y teléfonos inteligentes.;5;La respuesta correcta es usabilidad.;100
+El software debe estar activo 24/7 del tiempo;0;La respuesta correcta es disponibilidad.;100
+El sistema no debe tener caidas de más del 5% del tiempo al mes;0;La respuesta correcta es disponibilidad.;100
+El sistema debe seguir funcionando incluso si el servidor principal presenta fallo;0;La respuesta correcta es disponibilidad.;100
+Toda la información clasificada como restringida debe ser almacenada, transmitida y transportada, con procesos de encripción o cifrado utilizando algoritmos reconocidos como IP-SEC, DES, 3DES, AES o SSL, usando llaves de, al menos, 128 bits. ;3;La respuesta correcta es seguridad.;100
+El programa debe ser desarrollado con la arquitectura N capas para que facilite posibles cambios futuros ;1;La respuesta correcta es modificabilidad.;100
+El página web debe permanecer activa al menos 2 horas tras una falla elétrica;0;La respuesta correcta es disponibilidad.;100
+Todas las paginas deben cargarse en menos de 2 segundos;2;La respuesta correcta es desempeño.;100
+El sistema debe permitir encriptar los documentos y hacer imposible su consulta por fuera del sistema;4;La respuesta correcta es interoperabilidad.;100
+El sistema debe permitir interactuar en doble vía con otros sistemas de información de la empresa;4;La respuesta correcta es interoperabilidad.;100
+El sistema debe usar la pasarela de pago PSE, capturar sus estados y mostrarlos;4;La respuesta correcta es interoperabilidad.;100
+La aplicación debe poder comunicarse con los sistemas de escritorio de la empresa;4;La respuesta correcta es interoperabilidad.;100
+Permite contar con mensajes de error claros, de forma que el usuario pueda identificar la falla y darle solución;5;La respuesta correcta es usabilidad.;200
+Debe permitir la expansión controlada del sistema hasta al menos 5000 usuarios sin perjudicar la continuidad y eficacia del servicio;0;La respuesta correcta es disponibilidad.;200
+La lectura del código de barras debe ser automático para reducir la entrada manual de datos, agilizando la transacción y evitando errores;5;La respuesta correcta es usabilidad.;200
+El sistema debe desaunteticar a cada usuario tras cerrar la venta o navegador;3;La respuesta correcta es seguridad.;200
+El sistema debe crear cookies de máximo 2 horas de duración;3;La respuesta correcta es seguridad.;200
+El sistema debe funcionar correctamente incluso si no hay conexión internet;0;La respuesta correcta es disponibilidad.;200
+El sistema debe poder consumir servicios SOAP para conectar con bodegas de datos;4;La respuesta correcta es interoperabilidad.;200
+El sistema debe recibir los archivos XML del actual ERP empresarial y convertirlos a tablas HTML;4;La respuesta correcta es interoperabilidad.;200
+El sistema debe ser capaz de procesar N transacciones por segundo. Esto se medirá por medio de la herramienta SoapUI;2;La respuesta correcta es desempeño.;200
+Los datos modificados en la base de datos deben ser actualizados para todos los usuarios que acceden en menos de 5 segundos.;2;La respuesta correcta es desempeño.;200
+El código del programa debe permitir la actualización del framework utilizado;1;La respuesta correcta es modificabilidad.;200
+a aplicación debe validar la integridad de la información que es transmitida por la red producto de cualquier operación o transacción propia de su funcionalidad.;3;La respuesta correcta es seguridad.;200
+El backup de la base de datos se debe realizar todos los días entre las 2 y 3 am;2;La respuesta correcta es desempeño.;200
+El sistema debe permitir integrarse estrechamente con el sistema de correo electrónico de la entidad, de forma que los usuarios puedan enviar y recibir correos sin necesidad de salir del sistema;5;La respuesta correcta es usabilidad.;200
+El sistema debe de estar codificado en C Sharp (C#)  ya que permitirá una fácil revisión por parte de nuestros desarrolladores internos en el momento de dar soporte;1;La respuesta correcta es modificabilidad.;200
+El sistema debe permitir que una sola implementación del sistema disponga de un almacén de documentos electrónicos de al menos 15 teras o de 200 millones de documentos y que preste servicio al menos a 500 usuarios de forma simultanea.;0;La respuesta correcta es disponibilidad.;300
+El aplicativo debe permitir controlar por parámetro la emisión de copias adicionales de los informes que genera;3;La respuesta correcta es seguridad.;300
+El navegador no debe requerir ninguna modificación o instalación de plugins, applets, o similares para que el software funcione.;5;La respuesta correcta es usabilidad.;300
+Debe almacenar los objetos digitales de forma separada a la base de datos con los controles y permisos establecidos en cada servicio en el que sea requerida dicha función;4;La respuesta correcta es interoperabilidad.;300
+Debe permitir la gestión de documentos en las diferentes aplicaciones (traslado de documentos entre aplicaciones, cambios de índices, anexo o eliminación de páginas, etc.);4;La respuesta correcta es interoperabilidad.;300
+Debe garantizar para todo el sistema, un esquema de URL limpios el cual se debe caracterizar por, corresponder a la jerarquía del sitio y No incluir carácter especiales;3;La respuesta correcta es seguridad.;300
+Debe permitir atajos para las funcionalidades importantes. ;5;La respuesta correcta es usabilidad.;300
+Permite supervisar el espacio de almacenamiento disponible y avisar a los administradores cuando convenga intervenir, ya sea por escasez de espacio, o porque sea necesario alguna otra medida de tipo administrativo ;1;La respuesta correcta es modificabilidad.;300
+El backup del sistema debe realizarse en menos de 2 horas y debe hacerse en horario no laborable de la empresa;2;La respuesta correcta es desempeño.;300
+El sistema no debe tener usuarios con roles de SuperAdmin;3;La respuesta correcta es seguridad.;300
